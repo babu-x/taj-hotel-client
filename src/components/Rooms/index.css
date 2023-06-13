@@ -1,0 +1,188 @@
+.rooms-page {
+  margin-top: 20px;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-container h1 {
+  font-size: 18px;
+  margin-right: 19px;
+}
+.input-container select {
+  width: 200px;
+  height: 38px;
+  font-size: 16px;
+  outline: none;
+  margin-right: 10px;
+}
+
+.input-container select option {
+  font-size: 15px;
+  font-weight: 500;
+}
+.input-container p {
+  color: #ff6b6b;
+  cursor: pointer;
+}
+.rooms-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+.card {
+  width: 300px;
+  background: #fff;
+
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  margin: 16px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-details {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.card-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff6b6b;
+}
+
+.card-amenities {
+  margin-top: 10px;
+}
+
+.card-amenities ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card-amenities li {
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 5px;
+  color: #454545d7;
+}
+
+.card-city {
+  font-size: 14px;
+  color: #141414;
+  text-align: right;
+}
+.card-button {
+  margin-top: 10px;
+  width: 100px;
+  height: 32px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background-color: #4790fed7;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.carousel-image {
+  width: 100%;
+  height: 100px;
+  border-radius: 9px;
+  margin-bottom: 10px;
+}
+.opened-popup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.details-container p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ff6b6b;
+}
+.details-container p span {
+  color: #666;
+}
+.popup-content {
+  width: 400px !important;
+  height: 300px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popup-btns {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.popup-btns #close {
+  width: 100px;
+  background-color: rgb(204, 17, 17);
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  height: 35px;
+  font-size: 16px;
+  color: #fff;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.popup-btns #confirm {
+  width: 100px;
+  background-color: rgb(9, 99, 36);
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  height: 35px;
+  font-size: 16px;
+  color: #fff;
+  margin-right: 10px;
+  cursor: pointer;
+}
+input[type="date"] {
+  background-color: #005effe0;
+  padding: 7px;
+  font-family: "Roboto Mono", monospace;
+  color: #ffffff;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+::-webkit-calendar-picker-indicator {
+  background-color: #ffffff;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.check-in-container{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.check-in-container p{
+    color: #666;
+    margin-right: 10px;
+}
