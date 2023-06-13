@@ -34,6 +34,15 @@ The client folder follows a standard structure, as outlined below:
 2. Install the required dependencies using `npm install`.
 3. Start the client development server using `npm start`.
 
+## Refer below images 
+![image](https://github.com/babu-x/taj-hotel-client/assets/81235483/ceb3051d-31ec-4880-a4a2-72d94bd49df8)
+![image](https://github.com/babu-x/taj-hotel-client/assets/81235483/0a1681c5-7ee0-4355-b4d3-7dd591337045)
+![image](https://github.com/babu-x/taj-hotel-client/assets/81235483/0dcc18d3-4e4f-499c-a4cb-7a2dccd34fe2)
+![image](https://github.com/babu-x/taj-hotel-client/assets/81235483/a97189e2-24ac-4a05-8dac-751975615baa)
+![image](https://github.com/babu-x/taj-hotel-client/assets/81235483/3f1f4ed7-985a-49d0-8d0c-e6eb00010964)
+
+
+
 ## Usage
 
 The client-side code provides a user-friendly interface for users to browse available hotel rooms, make bookings, and manage their reservations. It communicates with the backend server to retrieve and update data.
